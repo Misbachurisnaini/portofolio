@@ -141,7 +141,9 @@ header{
 
 .btn-cv{
     text-align: center;
-    margin-top: 45px
+    margin-top: 45px;
+    display: block;
+    margin: 0 auto;
 }
 
 .btn-cv {
@@ -202,7 +204,44 @@ header{
     color: #6D6D6D; 
     width: 200px;
     font-size: 15px;
+    display: block;
+    margin: 0 auto;
+}
 
+.def-skill1 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.def-skill2 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.def-skill3 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    transition: 0.5s;
+    text-align: center;
 }
 
 .section1 {
@@ -216,7 +255,7 @@ header{
     padding-top: 20px;
     color: #967E76;
     margin: 0 auto;
-    font-size: 21px;
+    font-size: 30px;
 }
 
 .project-result{
@@ -310,7 +349,7 @@ header{
     padding: auto;
     margin: 39px 0 10px 121px;
     color: #6D6D6D;
-    text-align: left;
+    text-align: justify;
     width: 374px;
     height: 234px;
 }
@@ -446,3 +485,4 @@ footer img {
     width: 24px;
     height: 24px;
 }
+
