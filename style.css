@@ -97,12 +97,14 @@ header{
 }
 
 .btn-intro:hover{
+    color: #EEE3CB;
     opacity: 1;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .profile{
+    margin-top: 50px;
     height: 823px;
     background-color: #967E76;
 }
@@ -142,23 +144,22 @@ header{
     margin-top: 45px;
 }
 
-.btn-cv input{
+.btn-cv {
     background-color: #EEE3CB;
-    width: 266px;
-    height: 60px;
-    color: #967E76;
+    color: black;
+    width: fit-content;
+    padding: 10px 40px;
     font-size: 20px;
-    font-family: "Roboto slab";
     border-radius: 52px;
-    font-weight: bold;
-    border: none;
-    opacity: 0.8;
-    cursor: pointer;
-    transition: all 0.3s;
+    margin-top: 30px;
+    opacity: 0.75;
 }
 
-.btn-cv input:hover{
+.btn-cv:hover{
+    color: #EEE3CB;
     opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .main{
@@ -200,7 +201,7 @@ header{
 .skill p{
     color: #6D6D6D; 
     width: 200px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .section1 {
@@ -273,6 +274,7 @@ header{
     text-align: center;
     color: #967E76;
     font-size: 60px;
+    margin-top: 100px;
     margin-bottom: 12px;
 }
 
@@ -311,33 +313,40 @@ header{
     width: 374px;
     height: 234px;
 }
+
 .profile-testi{
     text-align: center;
 }
+
 .profile-testi h2{
     color: #967E76;
     font-size: 15px;
     margin: 5px 0;
 }
+
 .profile-testi p{
     color: #6D6D6D;
     text-align: center;
     width: 527px;
     font-size: 14px;
 }
+
 .profile-testi img{
     width: 65px;
     height: 65px;
 }
+
 .contact{
     display: flex;
     flex-direction:row;
     justify-content: center;
 }
+
 .img-contact img{
     width: 543px;
     margin: 15px;
 }
+
 .section4{
     color: #9F9F9F;
     font-size: 21px;
@@ -350,10 +359,12 @@ header{
     flex-direction: column;
     height: 455px;
 }
+
 .input-first{
     display: flex;
     flex-direction: row;
 }
+
 .inputs input,textarea{
     background-color: #D8DEEE;
     font-size: 18px;
@@ -362,6 +373,7 @@ header{
     border-radius: 5px;
     font-family: "Roboto slab";
 }
+
 .input-first input{
     width: 269px;
     height: 73px;
@@ -372,10 +384,12 @@ header{
     opacity: 1; 
     padding: 0 26px;
 }
+
 .subject-form{
     width: 549px;
     height: 98px;
 }
+
 .inputs textarea{
     width: 549px;
     height: 258px;
@@ -383,9 +397,11 @@ header{
     padding: 22px 0px;
     margin-bottom: 17px;
 }
+
 .inputs textarea::placeholder{
     opacity: 1;
 }
+
 .btn-send{
     background-color: #967E76;
     color: black;
@@ -397,20 +413,24 @@ header{
     opacity: 0.75;
     font-size: medium;
 }
+
 .btn-send:hover{
     opacity: 1;
     cursor: pointer;
     transition: all 0.3s;
 }
+
 .sosmed{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .sosmed img{
     padding-left: 40px;
     padding-right: 40px;
 }
+
 footer{
     padding-top: 95px;
     margin-top: 70px;
@@ -418,6 +438,12 @@ footer{
     height: 230px;
     background-color: #967E76;
 }
+
+footer img {
+    width: 50%;
+    height: auto;
+}
+
 footer p{
     font-size: 21px;
     color: #B7C4CF;
